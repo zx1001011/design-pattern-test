@@ -1,4 +1,7 @@
-import './创建型/factory'
+// import './创建型/singlePattern'
+import './结构型/adaptee'
+// import './行为型-1'
+// import './行为型-2'
 
 
 // es6 语法
