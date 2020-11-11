@@ -1,6 +1,6 @@
 // import './创建型/singlePattern'
-// import './结构型/polisher'
-// import './行为型-1'
+// import './结构型/agent'
+import './行为型-1/迭代器模式'
 // import './行为型-2'
 
 
@@ -48,11 +48,11 @@ let result = loadImg('https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d5572
 //     alert(ex)
 // })
 
-@testDec
-class Demo {
-}
+// @testDec
+// class Demo {
+// }
 
-function testDec(target) {
-    target.isDec = true
-}
-alert(Demo.isDec)
+// function testDec(target) {
+//     target.isDec = true
+// }
+// alert(Demo.isDec)

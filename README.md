@@ -211,6 +211,38 @@ b. 组合型（结构型）：
 - 符合开放封闭原则
 
 2）装饰器模式  
+介绍：
+
+- 为对象添加新功能
+- 不改变其原有的结构和功能  
+  _手机的手机壳_
+
+场景：
+
+- ES7 装饰器
+  配置环境：
+  npm install --save-dev babel-plugin-transform-decorators-legacy
+  在配置文件.babelrc 上配置：
+  "plugins": ["transform-decorators-legacy"]
+
+装饰类：
+
+```js
+@testDec
+class Demo {}
+
+function testDec(target) {
+  target.isDec = true;
+}
+alert(Demo.isDec);
+```
+
+装饰方法：
+
+- core-decorators 库
+
+总结：
+
 3）代理模式  
 4）外观模式  
 5）桥接模式  
