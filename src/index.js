@@ -1,7 +1,7 @@
-// import './创建型/singlePattern'
+import './创建型/proto'
 // import './结构型/agent'
-import './行为型-1/迭代器模式'
-// import './行为型-2'
+// import './行为型-1/迭代器模式'
+// import './行为型-2/状态模式-Promise'
 
 
 // es6 语法

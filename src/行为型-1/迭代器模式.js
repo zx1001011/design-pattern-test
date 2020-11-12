@@ -30,11 +30,15 @@ class Iterator {
 // }
 
 function each(data) {
-    let iterator = data[Symbol.iterator]()
-    let item = iterator.next()
-    while (!item.done) {
-        console.log(item.value)
-        item = iterator.next()
+    // let iterator = data[Symbol.iterator]()
+    // let item = iterator.next()
+    // while (!item.done) {
+    //     console.log(item.value)
+    //     item = iterator.next()
+    // }
+    // 带有遍历器特性的对象 ： data[Symbol.iterator] 有值
+    for (let item of data) {
+        console.log(item)
     }
 }
 let arr = [1, 2, 3, 4]
