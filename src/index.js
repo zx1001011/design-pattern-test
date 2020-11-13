@@ -1,7 +1,7 @@
 // import './创建型/proto'
 // import './结构型/agent'
-import './行为型-1/职责链模式'
-// import './行为型-2/状态模式-Promise'
+// import './行为型-1/命令模式'
+// import './行为型-2/中介者模式'
 
 
 // es6 语法

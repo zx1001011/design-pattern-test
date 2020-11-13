@@ -43,7 +43,12 @@ module.exports = {
         // 从contentBase设置的目录下面获取文件
         contentBase: path.join(__dirname, './release'),
         open: true,
-        port: 3000
+        port: 3000,
+        proxy: {
+            '/api/*': {
+                target: 'http://localhost:8880/'
+            }
+        }
     },
     mode: 'development',
     devtool: 'eval-source-map'
