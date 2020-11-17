@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "《JS 面试题》",
+        "price": 149,
+        "discount": 1
+    },
+    {
+        "id": 2,
+        "name": "《JS 高级面试题》",
+        "price": 366,
+        "discount": 1
+    },
+    {
+        "id": 2,
+        "name": "《React 模拟大众点评 webapp",
+        "price": 248,
+        "discount": 0
+    }    
+]
